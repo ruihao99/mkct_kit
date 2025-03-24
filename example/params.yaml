@@ -1,0 +1,8 @@
+Nmax_Omega: 30
+Nmax_tilde_Omega: 20
+Omega: 0.0
+Delta: 2.0
+beta: 5.0
+lambd: 0.5
+scale: 1.0E-2
+wD: 1.0

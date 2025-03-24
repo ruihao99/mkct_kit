@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mkct"
+version = "0.0.1"
+authors = [
+  {name="Rui-Hao Bi", email="biruihao@westlake.edu.cn"},
+  {name="Wei Liu", email="liuwei42@westlake.edu.cn"},
+]
+description="An python package for the Memory Kernel Coupling Theory."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
